@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSage - Transform Your Data Into Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12h8M8 8h8M8 16h6" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span>DataSage</span>
+            </div>
+            <nav class="nav">
+                <button class="btn btn-primary">Get Started</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Transform Your 
+                        <span class="text-gradient">Data Into Insights</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Upload your CSV files and instantly generate beautiful visualizations, 
+                        correlation matrices, and statistical summaries with DataSage's 
+                        powerful analytics engine. Try it now in demo mode!
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            Start Analyzing
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="features-preview">
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2"/>
+                                <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2"/>
+                                <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="10,9 9,9 8,9" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>CSV Upload & Preview</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="18" y1="20" x2="18" y2="10" stroke="currentColor" stroke-width="2"/>
+                                <line x1="12" y1="20" x2="12" y2="4" stroke="currentColor" stroke-width="2"/>
+                                <line x1="6" y1="20" x2="6" y2="14" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Interactive Charts</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Demo Mode Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="data-visualization">
+                        <svg width="100%" height="100%" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:0.8" />
+                                    <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:0.6" />
+                                    <stop offset="100%" style="stop-color:#2563EB;stop-opacity:0.4" />
+                                </linearGradient>
+                                <filter id="glow">
+                                    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                    <feMerge>
+                                        <feMergeNode in="coloredBlur"/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            
+                            <!-- Background particles -->
+                            <g class="particles">
+                                <circle cx="50" cy="50" r="2" fill="#4F46E5" opacity="0.6" class="particle">
+                                    <animate attributeName="cy" values="50;40;50" dur="3s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="150" cy="80" r="1.5" fill="#7C3AED" opacity="0.8" class="particle">
+                                    <animate attributeName="cy" values="80;70;80" dur="2.5s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="250" cy="60" r="2.5" fill="#2563EB" opacity="0.5" class="particle">
+                                    <animate attributeName="cy" values="60;50;60" dur="4s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="350" cy="90" r="1" fill="#4F46E5" opacity="0.7" class="particle">
+                                    <animate attributeName="cy" values="90;80;90" dur="3.5s" repeatCount="indefinite"/>
+                                </circle>
+                            </g>
+                            
+                            <!-- Main flowing wave -->
+                            <path class="flowing-wave" d="M0,150 Q100,100 200,150 T400,150" 
+                                  stroke="url(#waveGradient)" 
+                                  stroke-width="3" 
+                                  fill="none" 
+                                  filter="url(#glow)">
+                                <animate attributeName="d" 
+                                         values="M0,150 Q100,100 200,150 T400,150;
+                                                M0,150 Q100,120 200,130 T400,150;
+                                                M0,150 Q100,100 200,150 T400,150" 
+                                         dur="4s" 
+                                         repeatCount="indefinite"/>
+                            </path>
+                            
+                            <!-- Secondary wave -->
+                            <path class="flowing-wave-2" d="M0,180 Q100,140 200,180 T400,180" 
+                                  stroke="#4F46E5" 
+                                  stroke-width="2" 
+                                  fill="none" 
+                                  opacity="0.4">
+                                <animate attributeName="d" 
+                                         values="M0,180 Q100,140 200,180 T400,180;
+                                                M0,180 Q100,160 200,160 T400,180;
+                                                M0,180 Q100,140 200,180 T400,180" 
+                                         dur="5s" 
+                                         repeatCount="indefinite"/>
+                            </path>
+                            
+                            <!-- Data points -->
+                            <g class="data-points">
+                                <circle cx="100" cy="120" r="4" fill="#4F46E5" opacity="0.8">
+                                    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="200" cy="160" r="3" fill="#7C3AED" opacity="0.9">
+                                    <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="300" cy="140" r="5" fill="#2563EB" opacity="0.7">
+                                    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+                                </circle>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="features-title">Everything you need for data analysis</h2>
+            <p class="features-subtitle">Professional-grade analytics tools made simple and accessible for everyone</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2"/>
+                            <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Upload</h3>
+                    <p class="feature-description">
+                        Drag & drop CSV files up to 50MB. Auto-detect data types and suggest target variables.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="18" y1="20" x2="18" y2="10" stroke="currentColor" stroke-width="2"/>
+                            <line x1="12" y1="20" x2="12" y2="4" stroke="currentColor" stroke-width="2"/>
+                            <line x1="6" y1="20" x2="6" y2="14" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Interactive Visualizations</h3>
+                    <p class="feature-description">
+                        Generate correlation matrices, distribution plots, and missing data heatmaps instantly.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" stroke="currentColor" stroke-width="2"/>
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Professional Reports</h3>
+                    <p class="feature-description">
+                        Export beautiful PDF reports with all your insights and visualizations included.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="features-footer">
+                <p>Built for data professionals and curious minds alike.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
