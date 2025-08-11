@@ -12,6 +12,17 @@ body {
     background-color: #f8fafc;
 }
 
+/* Dark Mode and High Contrast Base */
+body.dark-mode {
+    background-color: #111827;
+    color: #f9fafb;
+}
+
+body.high-contrast {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,6 +38,16 @@ body {
     top: 0;
     z-index: 100;
     padding: 1rem 0;
+}
+
+body.dark-mode .header {
+    background: #1f2937;
+    border-bottom-color: #374151;
+}
+
+body.high-contrast .header {
+    background: #000000;
+    border-bottom-color: #ffffff;
 }
 
 .header .container {
@@ -63,6 +84,14 @@ body {
 
 .nav-link:hover {
     color: #4f46e5;
+}
+
+body.dark-mode .nav-link {
+    color: #d1d5db;
+}
+
+body.dark-mode .nav-link:hover {
+    color: #a5b4fc;
 }
 
 /* Button Styles */
@@ -106,6 +135,44 @@ body {
     box-shadow: 0 4px 16px rgba(79, 70, 229, 0.15);
 }
 
+/* Accessibility Toggle Buttons */
+.accessibility-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.toggle-btn {
+    background: #f3f4f6;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.toggle-btn:hover {
+    background: #e5e7eb;
+}
+
+.toggle-btn.active {
+    background: #4f46e5;
+    color: white;
+}
+
+body.dark-mode .toggle-btn {
+    background: #374151;
+    color: #f9fafb;
+}
+
+body.dark-mode .toggle-btn:hover {
+    background: #4b5563;
+}
+
 .btn-large {
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -138,6 +205,10 @@ body {
     color: #1f2937;
 }
 
+body.dark-mode .hero-title {
+    color: #f9fafb;
+}
+
 .text-gradient {
     background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%);
     -webkit-background-clip: text;
@@ -150,6 +221,10 @@ body {
     color: #6b7280;
     line-height: 1.7;
     max-width: 500px;
+}
+
+body.dark-mode .hero-subtitle {
+    color: #d1d5db;
 }
 
 .hero-buttons {
@@ -215,6 +290,14 @@ body {
     background: white;
 }
 
+body.dark-mode .features {
+    background: #0f172a;
+}
+
+body.high-contrast .features {
+    background: #000000;
+}
+
 .features-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -223,12 +306,20 @@ body {
     margin-bottom: 1rem;
 }
 
+body.dark-mode .features-title {
+    color: #f9fafb;
+}
+
 .features-subtitle {
     font-size: 1.25rem;
     color: #6b7280;
     text-align: center;
     max-width: 600px;
     margin: 0 auto 4rem;
+}
+
+body.dark-mode .features-subtitle {
+    color: #d1d5db;
 }
 
 .features-grid {
@@ -254,6 +345,16 @@ body {
     border-color: #4f46e5;
 }
 
+body.dark-mode .feature-card {
+    background: #1f2937;
+    border-color: #374151;
+}
+
+body.high-contrast .feature-card {
+    background: #000000;
+    border: 2px solid #ffffff;
+}
+
 .feature-icon {
     width: 64px;
     height: 64px;
@@ -271,6 +372,16 @@ body {
     font-weight: 600;
     color: #1f2937;
     margin-bottom: 1rem;
+}
+
+body.dark-mode .feature-title,
+body.dark-mode .feature-description {
+    color: #e5e7eb;
+}
+
+body.high-contrast .feature-title,
+body.high-contrast .feature-description {
+    color: #ffffff;
 }
 
 .feature-description {

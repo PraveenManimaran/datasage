@@ -154,6 +154,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Header background opacity on scroll
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
+        if (document.body.classList.contains('dark-mode') || document.body.classList.contains('high-contrast')) {
+            // Keep solid backgrounds in dark/high-contrast modes
+            return;
+        }
         const scrolled = window.pageYOffset;
         const opacity = Math.min(scrolled / 100, 1);
         header.style.background = `rgba(255, 255, 255, ${0.95 + (opacity * 0.05)})`;
@@ -264,3 +268,68 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Theme toggles and persistence (shared with dashboard)
+function toggleDarkMode() {
+    const body = document.body;
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    if (!darkModeToggle) return;
+
+    body.classList.toggle('dark-mode');
+    if (body.classList.contains('dark-mode')) {
+        darkModeToggle.classList.add('active');
+        darkModeToggle.innerHTML = '☀️';
+        localStorage.setItem('darkMode', 'true');
+    } else {
+        darkModeToggle.classList.remove('active');
+        darkModeToggle.innerHTML = '🌙';
+        localStorage.setItem('darkMode', 'false');
+    }
+}
+
+function toggleHighContrast() {
+    const body = document.body;
+    const contrastToggle = document.getElementById('contrastToggle');
+    if (!contrastToggle) return;
+
+    body.classList.toggle('high-contrast');
+    if (body.classList.contains('high-contrast')) {
+        contrastToggle.classList.add('active');
+        contrastToggle.innerHTML = '⚪';
+        localStorage.setItem('highContrast', 'true');
+    } else {
+        contrastToggle.classList.remove('active');
+        contrastToggle.innerHTML = '⚫';
+        localStorage.setItem('highContrast', 'false');
+    }
+}
+
+function initializeAccessibilitySettings() {
+    const darkMode = localStorage.getItem('darkMode') === 'true';
+    const highContrast = localStorage.getItem('highContrast') === 'true';
+
+    if (darkMode) {
+        document.body.classList.add('dark-mode');
+        const darkToggle = document.getElementById('darkModeToggle');
+        if (darkToggle) {
+            darkToggle.classList.add('active');
+            darkToggle.innerHTML = '☀️';
+        }
+    }
+
+    if (highContrast) {
+        document.body.classList.add('high-contrast');
+        const contrastToggle = document.getElementById('contrastToggle');
+        if (contrastToggle) {
+            contrastToggle.classList.add('active');
+            contrastToggle.innerHTML = '⚪';
+        }
+    }
+}
+
+// Initialize theme on load (after DOM ready handlers run)
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeAccessibilitySettings);
+} else {
+    initializeAccessibilitySettings();
+}
