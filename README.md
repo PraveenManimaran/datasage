@@ -167,7 +167,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 **Contact**
 
-- **Demo**: [Live Application](https://datasage-demo.netlify.app)
+- **Demo**: [Live Application](https://datasageviz.netlify.app)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/datasage/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/datasage/discussions)
 
