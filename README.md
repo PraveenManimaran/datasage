@@ -2,7 +2,7 @@
 
 A powerful, modern data visualization and analysis platform built with vanilla HTML, CSS, and JavaScript. Transform your CSV data into beautiful, interactive charts and gain insights through comprehensive analysis tools.
 
-## 🚀 [Live Demo](https://datasage-demo.netlify.app)
+## 🚀 [Live Demo](https://datasageviz.netlify.app)
 
 ## ✨ Features
 
