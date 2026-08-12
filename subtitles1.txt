@@ -1,0 +1,289 @@
+0:000 secondsyou're getting a lot of inconclusive and declines because there's no data or the accounts are brand new, right? Mhm.
+0:077 secondsSo, what I want you to do is take a look at the frequency of the inconclusive and declines. Okay?
+0:1414 secondsAnd give me the concentration of inconclusive and the clients. What is creating all the inconclusive declines?
+0:2020 secondsYou already have the you have the aggregate frequencies, right? You can do the same in this data, right?
+0:2828 secondsYou have the raw data and say I am going to pull in my approval the verification status from my approval. Uhhuh.
+0:3636 secondsTake the verification status and put it on top of the primary status code.
+0:4444 secondsTake the verification test and put it on top of the primary status code here. Yeah. Yeah.
+0:5151 secondsAnd then you have your aggregates, right? You can actually collapse these columns and say I have a 33% of approvals, 3% of denials and then I have
+1:001 minuteall my inconclusive. My inconclusive represent um it's almost 50% or 60% of the
+1:071 minute, 7 secondspopulation rights 55%. Right now this blank I don't know what to do with it.
+1:131 minute, 13 secondsWe have to check the data right for the moment being take it out so I don't have to worry about it.
+1:241 minute, 24 secondsEliminate the blacks in your filters. Filter out the blanks.
+1:321 minute, 32 secondsBut to the point, you have the clients.
+1:351 minute, 35 secondsYou have you have a bunch of the clients, right? So where are the declines coming from? From which rules?
+1:411 minute, 41 secondsAnd you have the definition of the rules, right? Why are we denying 3% of the population?
+1:541 minute, 54 secondsYou have the strategy right for the denials. Uhhuh.
+2:042 minutes, 4 secondsYou have it in the other screen. Oh. Uh, right here. Yeah.
+2:162 minutes, 16 secondsSo be so so for the declines it's because of this rule these two rules
+2:242 minutes, 24 secondsor so you have approvals declines and inconclusive right inclusive are not declines the clients are 649 and 6413
+2:322 minutes, 32 secondshighlight them in the table below and 649 and 6413
+2:412 minutes, 41 seconds4 It's a different strategy, right? Oh, here. Yeah.
+2:492 minutes, 49 secondsOkay. Okay.
+2:562 minutes, 56 secondsSo, this these are the class. Do you have them in in this table or is a different strategy? 649.
+3:053 minutes, 5 secondsThey don't show up.
+3:123 minutes, 12 secondsThis is regent. Yeah, this is uh from regions. Uh
+3:203 minutes, 20 secondsthat's from I I copy pasted this table. Uh
+3:303 minutes, 30 secondsyeah, go and go to the details on top.
+3:383 minutes, 38 secondsSo this is region's bank for the whole time period, right? Oh yeah, this is the one here. Yeah.
+3:503 minutes, 50 secondsOh yeah, I think this is this is the file you sent me for. So we have different samples.
+3:573 minutes, 57 secondsWe don't even have the same.
+4:054 minutes, 5 secondsThe clients are 5481 and 5485. You see that?
+4:164 minutes, 16 secondsAnd these are conditions where everything is a mismatch. The name sum is match N. The SS is match N. The
+4:244 minutes, 24 secondslicense is match. And then we decide that it's a decline. And this is 60 60,000 6,000 declines and the other ones
+4:324 minutes, 32 secondsare closed accounts for the primary status code. 02003, 010, 012, etc. Right? Those are the decline reasons.
+4:424 minutes, 42 secondsMhm. Okay.
+4:484 minutes, 48 secondsBut so is it let's go to your data because we did it for one year. Is that
+4:564 minutes, 56 secondswhy it could be? I don't I cannot explain. I don't know why this working. But let's work with since I don't know if we have data integrity
+5:045 minutes, 4 secondsor not. Let's work with your sample where we can map the rule ids and the data. Right.
+5:095 minutes, 9 secondsLet's go back to your data selection for Excel and then use the declines and tell me what what is corresponding to those declines.
+5:215 minutes, 21 secondsUhhuh.
+5:225 minutes, 22 secondsYeah. This is this is the frequency that we saved. So where's your raw data?
+5:295 minutes, 29 secondsUh should be
+5:505 minutes, 50 secondsOkay. So, we have the nuts, right? Can you cross reference the rules here?
+6:096 minutes, 9 secondsSo you have a rule ID, right? Uhhuh.
+6:116 minutes, 11 secondsCan you cross reference the rule ID for each one of the decisions?
+6:226 minutes, 22 secondsSo should I just drag it to to the world? Yeah. Under verification status, right?
+6:306 minutes, 30 secondsSo this is this is the reason that they got declined, right? So you have denials that are coming from 5481 and 5485
+6:396 minutes, 39 secondsand 55 5513. These are the three rules why they are getting declined. Right.
+6:476 minutes, 47 secondsCan you do me a favor? Can you take out the primary status code for now
+6:546 minutes, 54 secondsand the primary message and then you have your volumes, right?
+7:027 minutes, 2 secondsIn June, you had uh three rules that declined 556 and you have a bunch of people that were too inconclusive, right?
+7:117 minutes, 11 secondsMhm. the uh these are the ones who did not get approved from the definition that you had in
+7:217 minutes, 21 secondsthe yearly thing. Uh 55519.
+7:277 minutes, 27 secondsThose are guys that don't have first name, last name, right? Uhhuh.
+7:347 minutes, 34 secondsAnd they cannot be approved because they don't have names. And 59% of the information that regions is sending
+7:417 minutes, 41 secondsdoesn't have names. Do me a favor and then right click on the 59.82.
+7:477 minutes, 47 secondsDouble click. Go down. 59.82 in the cell that is 59.82. Uhhuh.
+7:557 minutes, 55 secondsPercent. Double click. Right click.
+7:587 minutes, 58 secondsDouble right click or double click. Just fast. Double click. Click. Click.
+8:068 minutes, 6 secondsSo that is going to create a a table with all the information. Right? So all of these are your inconclusive the
+8:138 minutes, 13 secondsclients and uh the reason that the code says is that it has no names. Can you
+8:208 minutes, 20 secondsplease check the name match code and the values for them and tell me if we have names we have matches for those names.
+8:288 minutes, 28 secondsThis is the first name match code and the last and so the negative 9999 means it's not there right
+8:368 minutes, 36 secondsand the primary status code is going to tell you why is it it's not there's no information.
+9:119 minutes, 11 secondsRight. Uhhuh. So this is the frequency that you made.
+9:149 minutes, 14 secondsAnd the reason there's no information is not everybody contributes to AWS. If you go all the way to the right,
+9:259 minutes, 25 secondsthese are the um financial institutions that regions is trying to register and uh they're not
+9:349 minutes, 34 secondsmembers. Most of them are not members of EWS.
+9:399 minutes, 39 secondsOkay. They have a very large portion of people that doesn't have a membership for EWS.
+9:459 minutes, 45 secondslead bank all the or small financial institutions are not part of the DWS consortion right
+9:539 minutes, 53 secondsso normally in the waterfall they should have put a condition that says if the fis are not in EWS just decision them at
+10:0210 minutes, 2 secondsthe beginning and say these are zeros or 096 right does that make sense or not
+10:1010 minutes, 10 secondsso you're you're saying that because a lot of so all of these banks are not a part of EWS.
+10:1810 minutes, 18 secondsEWS, you're not going to find the accounts.
+10:2310 minutes, 23 secondsOh, so you're you're not going to have any names, right? And EWS sends a respond and say, I'm going to send you code 000096.
+10:3210 minutes, 32 secondsI have no information on this guys. Oh, so EWS comes up with these codes. Okay.
+10:3910 minutes, 39 secondsRight. EWS comes with those codes and say this. I'm going to return the code and the code says that I don't have the information
+10:4610 minutes, 46 secondsright so it's very easy just create a rule that says there's no information I don't have to explain anything right there's no data you cannot accept these
+10:5410 minutes, 54 secondsguys you cannot own the writing using AWS
+11:0311 minutes, 3 secondsoh okay right so if you go back to your base table or the inconclusives, right?
+11:1411 minutes, 14 secondsMhm. Copy the pivot table. Okay.
+11:2311 minutes, 23 secondsCopy that in another column, column L or M.
+11:3311 minutes, 33 secondsAnd now you can show that level of detail, right? You can actually say, well, out of my 9,605,
+11:4111 minutes, 41 secondsyou can filter by the verification status, just go into that filter and then only display inconclusive.
+12:0112 minutes, 1 secondOkay, so here are your rules that are decisioning.
+12:0512 minutes, 5 secondsThen you're going to break apart this population into the primary status codes that they call with their primary
+12:1212 minutes, 12 secondsmessage codes and then the financial institutions they correspond to. You can
+12:1812 minutes, 18 secondsbring in the primary message for the
+12:2412 minutes, 24 secondsstatus code and primary message and 6,000 out of these 9,000 there they
+12:3112 minutes, 31 secondsdon't exist, right? there's no information and for them there's some fraction that is low probability of return right
+12:3812 minutes, 38 secondsso what does that mean the low probability of return um the the information is there but they
+12:4512 minutes, 45 secondsdon't have names right so double click on these guys and
+12:5112 minutes, 51 secondsthen I don't know all of these show 5519 uh you don't have you don't have names
+13:0013 minutesright let's Do let's do a an example, right?
+13:0513 minutes, 5 secondsTake the first um first and last name
+13:1413 minutes, 14 secondsand cross reference and do a cross tabs in the same pivot table that you have.
+13:1813 minutes, 18 secondsDo cross stabs. Go back and drag them to the top in here in this one.
+13:2513 minutes, 25 secondsTake the first name and then put it as a column in the pivot table. Take the first name.
+13:3413 minutes, 34 secondsBlow up.
+13:4513 minutes, 45 secondsThat's the first name, right? You passed it. First name match code. Oh, match code.
+13:5013 minutes, 50 secondsDrag it to the values uh at the top.
+13:5613 minutes, 56 secondsTo the top where it says values.
+14:0114 minutes, 1 secondNot to the values, I'm sorry, to the columns to a column field.
+14:0814 minutes, 8 secondsOkay. And then um how many of them are missing?
+14:1614 minutes, 16 secondsAll of them.
+14:2714 minutes, 27 secondsHey for that rule 5519 all of the names are missing
+14:3814 minutes, 38 secondsright wait uh where is this saying that there isn't
+14:4414 minutes, 44 secondsit's missing is the value is - 9999 oh here oh okay okay yeah
+14:5114 minutes, 51 secondsright so you're saying well uh I can approve them because your name match code is
+14:5914 minutes, 59 secondsmissing for all of this rule. So for this 9,000 for the whole of rule 5519
+15:0715 minutes, 7 secondsthere's no names. There's no names because they don't contribute information because they are not located in the database, right? That's the main reason.
+15:1715 minutes, 17 secondsSo, they don't have names. There's a fraction that is for one that has low probability of return, but there's no names. Even if the account, even if I
+15:2615 minutes, 26 secondscan find the account, I cannot find the names. I cannot guarantee ownership.
+15:3015 minutes, 30 secondsThis may be a good account, but it's the account that belongs to Canada, not to provin. Yeah.
+15:3615 minutes, 36 secondsRight. Some of them are new accounts, right? And there are other codes. But the key important fact is that there's no name matching.
+15:4715 minutes, 47 secondsSee what I'm saying? Yeah.
+15:4815 minutes, 48 secondsYou can take out the primary status code and the primary message,
+15:5715 minutes, 57 secondsright? And then uh do me a favor. Just pull out values and put it on top of row ID.
+16:0416 minutes, 4 secondsGo to the column. do this sigma values and drag it drag it to the row column.
+16:1016 minutes, 10 secondsMove it to the left and down. Yeah, like there. Right here.
+16:1416 minutes, 14 secondsYeah, this shows very simply in a super basic frequency. All of these names are
+16:2116 minutes, 21 secondsmissing. You can replace the first name match code for for the um
+16:3016 minutes, 30 secondsthere's a there's a name match code viable hood somewhere.
+16:5316 minutes, 53 secondsThis one.
+16:5416 minutes, 54 secondsYeah. Name match group. Bring it instead of the first name match group.
+17:0417 minutes, 4 secondsRight. So out of these 9,000 are missing. You cannot decision them.
+17:1117 minutes, 11 secondsYeah.
+17:1217 minutes, 12 secondsOkay. So, I said, "We don't have names." I said, "Why don't you have names?" Because they're not members of EWS. Most of them are going to be 0000 and 096.
+17:2317 minutes, 23 secondsThe fact is that you don't have names to decision these guys. So, how come you don't have the names in EWS? You're using a combination of financial
+17:3117 minutes, 31 secondsinstitutions that are non-members of FIM and then you show them the frequency for the home ID.
+17:4217 minutes, 42 secondsMhm. Okay.
+17:4517 minutes, 45 secondsAnd by the way, these are similar results if you do the same compare the same proportions do the same exercise for the
+17:5317 minutes, 53 secondsinformation for citizens that has the same problem. For June, you're going to find that most of them are going to be 0000. They don't belong to EWS or 096.
+18:0518 minutes, 5 secondsThe only difference is it's not the same rule. It doesn't they don't let the rule go and check the names. They say there's no information. You're not going to find it. They don't even let the rules go.
+18:1618 minutes, 16 secondsOkay. Go back to the rule definitions or be.
+18:2418 minutes, 24 secondsSo, move to the old spreadsheet that has the list of rules.
+18:3518 minutes, 35 secondsIs this what you want or or did you want to go to the Boss?
+18:3918 minutes, 39 secondsUm, well, you you were going to compare them, right? Regions allows them to go into the inconclusive all the way to the bottom, right? Mhm.
+18:4718 minutes, 47 secondsThere's no reject on the rule number two, right? But if you go to the same rule definitions for the frequency
+18:5618 minutes, 56 secondsimmediately they kick them out of the waterfall because they find no information. Okay.
+19:0619 minutes, 6 secondsGo to the yeah triimo or try citizens.
+19:1119 minutes, 11 secondsThe first thing that you have is you have an inconclusive all the way to the top of the waterfall. Right.
+19:1919 minutes, 19 secondsThere's nothing here. Right. Okay, you're going to have to find in the detail for the rules
+19:2719 minutes, 27 secondsthat the rules say anything is going to I'm going to take anything that is 0096 that I cannot find. Right.
+19:3519 minutes, 35 secondsMhm. And I'm going to get rid of them. And that is about 50% of the population.
+19:4319 minutes, 43 secondsRight. Just like regions, they just put it in a different room.
+19:5419 minutes, 54 secondsSo you want me to do the same the same thing or uh compare them right another client and minimize it and tell them
+20:0220 minutes, 2 secondsit's vimo cuz you have the same for citizens right
+20:1420 minutes, 14 secondswell I Hey, you need to have the description of the
+20:2420 minutes, 24 secondsrules so that you can explain it.
+20:2920 minutes, 29 secondsThere's no way to explain why the inconclusives are all aggregating citizens. Citizens has the same rule
+20:3820 minutes, 38 seconds55519 declined a bunch of people, right? Yeah. So, what is that rule for citizens?
+20:5020 minutes, 50 secondsBut are you sure that you're showing regions and not citizens?
+20:5420 minutes, 54 secondsSo this this is citizen, right?
+20:5820 minutes, 58 secondsAnd then this is and the rule is 55519, right? Yeah. Correct. And what are the declines for regions?
+21:0821 minutes, 8 secondsThe 56411. Uhhuh.
+21:1521 minutes, 15 secondsBut these are the inconclusives. Yeah.
+21:1821 minutes, 18 secondsSo what is what happens with inconclusives? Why are they inconclusive? Where is the definition of 56411 and 56415?
+21:4321 minutes, 43 secondsThis this is for regent and so you are looking for 56411.
+21:5921 minutes, 59 secondsWell, well, this is for the year, so I don't know. It's not doesn't seem to be showing. All right. I I I don't But you have the download, right?
+22:1522 minutes, 15 secondsYes. Check it in there.
+22:2922 minutes, 29 secondsCheck the home ID.
+22:3822 minutes, 38 secondsJust make sure that you're doing this for the frequency of the home ID of regions, right? Yeah, this this is for regions. Yeah.
+22:4722 minutes, 47 secondsCan you display the home ID? should
+23:0123 minutes, 1 secondall the way to the top in the field.
+23:1723 minutes, 17 secondsYeah. So this this is the home ID I use from I got it from dim home. Yeah, that's fine. It's 598.
+23:2523 minutes, 25 secondsYeah.
+23:2623 minutes, 26 secondsOkay. So this is 598 and the list of rules is 5519, right? The the frequency
+23:3423 minutes, 34 secondsfor the inconclusives.
+23:4523 minutes, 45 secondsOkay. So you have a home ID that is uh 598 which is their home ID and this is
+23:5123 minutes, 51 secondsthe frequency for the 900 9604 9,600.
+23:5823 minutes, 58 secondsRight. And then you're showing that all of this information is missing. Mhm.
+24:0224 minutes, 2 secondsRight. If you were to do the same exercise with citizens, would you find the same data? Right.
+24:1124 minutes, 11 secondsWe find Yeah, it happens the same. with the client because there's no information and um these are just not members of VWS
+24:2024 minutes, 20 secondsand then display the frequency for FI names.
+24:2824 minutes, 28 secondsSo you want me to pull the data for uh the citizens and try and then do like the same thing.
+24:3624 minutes, 36 secondsYes. Okay.
+24:4024 minutes, 40 secondsRight. to show that they they looked similar.
+24:4524 minutes, 45 secondsThey're not that different. And the problem is really is not that they're worse than their peers. It's just that they're never going to find the names.
+24:5324 minutes, 53 secondsThey're not in AWS. The people that they're underwriting and trying to look for in AWS, they're not there.
+25:0725 minutes, 7 secondsSlow it down.
+26:1026 minutes, 10 secondsOkay.
+26:1326 minutes, 13 secondsUm let's check on this tomorrow so that we can send the numbers to Jacob brand put in a presentation like these are the frequencies three clients that we said
+26:2226 minutes, 22 secondspier one pier two these are this is the logic and whenever you aggregate the numbers they look a lot like regions
+26:2926 minutes, 29 secondswhat is the problem with regions well regions is taking a group of financial institutions that they're not members of
+26:3626 minutes, 36 secondsEWS so as a result then you can just you can't find them right Yeah.
+26:4226 minutes, 42 secondsCannot find them in the database.
+26:4726 minutes, 47 secondsRight. So, I know this is not what I'm sure you don't like it, but that's who you're trying to bring in into the bank.
+26:5426 minutes, 54 secondsYou're trying to bring to the bank people you cannot find in AWS. Make sense?
+27:0227 minutes, 2 secondsYeah. Yeah. Yeah. Yeah. That makes sense.
+27:0527 minutes, 5 secondsOkay. So, let's do one more cycle. How you how you feeling? Are you coming tomorrow to the office or can you still Actually, I I I was going to I was going
+27:1227 minutes, 12 secondsto inform you this morning, but like I took a COVID test yesterday and it came back positive.
+27:1827 minutes, 18 secondsSo So it's I didn't I didn't even know this this co this co 19 is still around.
+27:2527 minutes, 25 secondsUm so I just told my doctor and he told me to just like stay quarantined for like the next five like five to seven days or so.
+27:3727 minutes, 37 secondsSo, I've just been just in my room kind of. That's fine.
+27:4127 minutes, 41 secondsYeah, I was feeling pretty bad yesterday. It was like fever and chills, but today like a lot of the symptoms have gone away. So, I was able to like work a little bit.
+27:5327 minutes, 53 secondsOkay, that sounds good.
+27:5427 minutes, 54 secondsYeah, let's let's touch base tomorrow, right?
+27:5727 minutes, 57 secondsJust do the presentation and then bring it into the daily so that you can show the findings. Okay. And then you can close the thing.
+28:0528 minutes, 5 secondsOkay. Thank you for this. Yeah, of course. Thanks.15:0715 minutes, 7 secondsthere's no names. There's no names because they don't contribute information because they are not located in the database, right? That's the main reason.
+15:1715 minutes, 17 secondsSo, they don't have names. There's a fraction that is for one that has low probability of return, but there's no names. Even if the account, even if I
+15:2615 minutes, 26 secondscan find the account, I cannot find the names. I cannot guarantee ownership.
+15:3015 minutes, 30 secondsThis may be a good account, but it's the account that belongs to Canada, not to provin. Yeah.
+15:3615 minutes, 36 secondsRight. Some of them are new accounts, right? And there are other codes. But the key important fact is that there's no name matching.
+15:4715 minutes, 47 secondsSee what I'm saying? Yeah.
+15:4815 minutes, 48 secondsYou can take out the primary status code and the primary message,
+15:5715 minutes, 57 secondsright? And then uh do me a favor. Just pull out values and put it on top of row ID.
+16:0416 minutes, 4 secondsGo to the column. do this sigma values and drag it drag it to the row column.
+16:1016 minutes, 10 secondsMove it to the left and down. Yeah, like there. Right here.
+16:1416 minutes, 14 secondsYeah, this shows very simply in a super basic frequency. All of these names are
+16:2116 minutes, 21 secondsmissing. You can replace the first name match code for for the um
+16:3016 minutes, 30 secondsthere's a there's a name match code viable hood somewhere.
+16:5316 minutes, 53 secondsThis one.
+16:5416 minutes, 54 secondsYeah. Name match group. Bring it instead of the first name match group.
+17:0417 minutes, 4 secondsRight. So out of these 9,000 are missing. You cannot decision them.
+17:1117 minutes, 11 secondsYeah.
+17:1217 minutes, 12 secondsOkay. So, I said, "We don't have names." I said, "Why don't you have names?" Because they're not members of EWS. Most of them are going to be 0000 and 096.
+17:2317 minutes, 23 secondsThe fact is that you don't have names to decision these guys. So, how come you don't have the names in EWS? You're using a combination of financial
+17:3117 minutes, 31 secondsinstitutions that are non-members of FIM and then you show them the frequency for the home ID.
+17:4217 minutes, 42 secondsMhm. Okay.
+17:4517 minutes, 45 secondsAnd by the way, these are similar results if you do the same compare the same proportions do the same exercise for the
+17:5317 minutes, 53 secondsinformation for citizens that has the same problem. For June, you're going to find that most of them are going to be 0000. They don't belong to EWS or 096.
+18:0518 minutes, 5 secondsThe only difference is it's not the same rule. It doesn't they don't let the rule go and check the names. They say there's no information. You're not going to find it. They don't even let the rules go.
+18:1618 minutes, 16 secondsOkay. Go back to the rule definitions or be.
+18:2418 minutes, 24 secondsSo, move to the old spreadsheet that has the list of rules.
+18:3518 minutes, 35 secondsIs this what you want or or did you want to go to the Boss?
+18:3918 minutes, 39 secondsUm, well, you you were going to compare them, right? Regions allows them to go into the inconclusive all the way to the bottom, right? Mhm.
+18:4718 minutes, 47 secondsThere's no reject on the rule number two, right? But if you go to the same rule definitions for the frequency
+18:5618 minutes, 56 secondsimmediately they kick them out of the waterfall because they find no information. Okay.
+19:0619 minutes, 6 secondsGo to the yeah triimo or try citizens.
+19:1119 minutes, 11 secondsThe first thing that you have is you have an inconclusive all the way to the top of the waterfall. Right.
+19:1919 minutes, 19 secondsThere's nothing here. Right. Okay, you're going to have to find in the detail for the rules
+19:2719 minutes, 27 secondsthat the rules say anything is going to I'm going to take anything that is 0096 that I cannot find. Right.
+19:3519 minutes, 35 secondsMhm. And I'm going to get rid of them. And that is about 50% of the population.
+19:4319 minutes, 43 secondsRight. Just like regions, they just put it in a different room.
+19:5419 minutes, 54 secondsSo you want me to do the same the same thing or uh compare them right another client and minimize it and tell them
+20:0220 minutes, 2 secondsit's vimo cuz you have the same for citizens right
+20:1420 minutes, 14 secondswell I Hey, you need to have the description of the
+20:2420 minutes, 24 secondsrules so that you can explain it.
+20:2920 minutes, 29 secondsThere's no way to explain why the inconclusives are all aggregating citizens. Citizens has the same rule
+20:3820 minutes, 38 seconds55519 declined a bunch of people, right? Yeah. So, what is that rule for citizens?
+20:5020 minutes, 50 secondsBut are you sure that you're showing regions and not citizens?
+20:5420 minutes, 54 secondsSo this this is citizen, right?
+20:5820 minutes, 58 secondsAnd then this is and the rule is 55519, right? Yeah. Correct. And what are the declines for regions?
+21:0821 minutes, 8 secondsThe 56411. Uhhuh.
+21:1521 minutes, 15 secondsBut these are the inconclusives. Yeah.
+21:1821 minutes, 18 secondsSo what is what happens with inconclusives? Why are they inconclusive? Where is the definition of 56411 and 56415?
+21:4321 minutes, 43 secondsThis this is for regent and so you are looking for 56411.
+21:5921 minutes, 59 secondsWell, well, this is for the year, so I don't know. It's not doesn't seem to be showing. All right. I I I don't But you have the download, right?
+22:1522 minutes, 15 secondsYes. Check it in there.
+22:2922 minutes, 29 secondsCheck the home ID.
+22:3822 minutes, 38 secondsJust make sure that you're doing this for the frequency of the home ID of regions, right? Yeah, this this is for regions. Yeah.
+22:4722 minutes, 47 secondsCan you display the home ID? should
+23:0123 minutes, 1 secondall the way to the top in the field.
+23:1723 minutes, 17 secondsYeah. So this this is the home ID I use from I got it from dim home. Yeah, that's fine. It's 598.
+23:2523 minutes, 25 secondsYeah.
+23:2623 minutes, 26 secondsOkay. So this is 598 and the list of rules is 5519, right? The the frequency
+23:3423 minutes, 34 secondsfor the inconclusives.
+23:4523 minutes, 45 secondsOkay. So you have a home ID that is uh 598 which is their home ID and this is
+23:5123 minutes, 51 secondsthe frequency for the 900 9604 9,600.
+23:5823 minutes, 58 secondsRight. And then you're showing that all of this information is missing. Mhm.
+24:0224 minutes, 2 secondsRight. If you were to do the same exercise with citizens, would you find the same data? Right.
+24:1124 minutes, 11 secondsWe find Yeah, it happens the same. with the client because there's no information and um these are just not members of VWS
+24:2024 minutes, 20 secondsand then display the frequency for FI names.
+24:2824 minutes, 28 secondsSo you want me to pull the data for uh the citizens and try and then do like the same thing.
+24:3624 minutes, 36 secondsYes. Okay.
+24:4024 minutes, 40 secondsRight. to show that they they looked similar.
+24:4524 minutes, 45 secondsThey're not that different. And the problem is really is not that they're worse than their peers. It's just that they're never going to find the names.
+24:5324 minutes, 53 secondsThey're not in AWS. The people that they're underwriting and trying to look for in AWS, they're not there.
+25:0725 minutes, 7 secondsSlow it down.
+26:1026 minutes, 10 secondsOkay.
+26:1326 minutes, 13 secondsUm let's check on this tomorrow so that we can send the numbers to Jacob brand put in a presentation like these are the frequencies three clients that we said
+26:2226 minutes, 22 secondspier one pier two these are this is the logic and whenever you aggregate the numbers they look a lot like regions
+26:2926 minutes, 29 secondswhat is the problem with regions well regions is taking a group of financial institutions that they're not members of
+26:3626 minutes, 36 secondsEWS so as a result then you can just you can't find them right Yeah.
+26:4226 minutes, 42 secondsCannot find them in the database.
+26:4726 minutes, 47 secondsRight. So, I know this is not what I'm sure you don't like it, but that's who you're trying to bring in into the bank.
+26:5426 minutes, 54 secondsYou're trying to bring to the bank people you cannot find in AWS. Make sense?
+27:0227 minutes, 2 secondsYeah. Yeah. Yeah. Yeah. That makes sense.
+27:0527 minutes, 5 secondsOkay. So, let's do one more cycle. How you how you feeling? Are you coming tomorrow to the office or can you still Actually, I I I was going to I was going
+27:1227 minutes, 12 secondsto inform you this morning, but like I took a COVID test yesterday and it came back positive.
+27:1827 minutes, 18 secondsSo So it's I didn't I didn't even know this this co this co 19 is still around.
+27:2527 minutes, 25 secondsUm so I just told my doctor and he told me to just like stay quarantined for like the next five like five to seven days or so.
+27:3727 minutes, 37 secondsSo, I've just been just in my room kind of. That's fine.
+27:4127 minutes, 41 secondsYeah, I was feeling pretty bad yesterday. It was like fever and chills, but today like a lot of the symptoms have gone away. So, I was able to like work a little bit.
+27:5327 minutes, 53 secondsOkay, that sounds good.
+27:5427 minutes, 54 secondsYeah, let's let's touch base tomorrow, right?
+27:5727 minutes, 57 secondsJust do the presentation and then bring it into the daily so that you can show the findings. Okay. And then you can close the thing.
+28:0528 minutes, 5 secondsOkay. Thank you for this. Yeah, of course. Thanks.
