@@ -1,0 +1,48 @@
+Fulton: 
+
+Miguel:
+How are we doing the with the fulton data collection for the presentation? 
+
+Praveen: I saw that you sent me the presentation slides and have already started on a few slides…
+
+Miguel: Um, I started doing the presentation, right? I put, I put, I, just, if you don't mind opening it up on screen.
+
+Proveen: Yeah, let me. Yeah, I noticed, yeah, I saw, like, these numbers are, like, updated. Um, 
+
+Miguel: So these are the gains, right?  The models behind, right? But we need the 1st line, 1st 3 slides that is the performance. Right?  Why don’t you go into Power BI, find the Transfer Now Metrics and Zelle Metrics and then put them as slides in the presentation.
+
+Praveen: Yeah, yeah, I can do that. 
+ Miguel: So that's, that's what you have seen Shree and, uh, Sushmita in the other meetings, right? She come, they come with a performance. 
+So, Fulton is very, is very close, if not already in FNP. They're going to get penalized because they hit 30,000. 
+ Fulton, maybe they missed that. Right? But Fulton is just about to get in penalty again, right? 
+ So take a snapshot and then start describing the polishing food, right? Why do they have that many losses? This is a question for you. 
+ But what is the policy looking like? How much, uh, triggers do we have for them? Do they have standard triggers or low triggers?  What the story with them? 
+
+Praveen: Um, so for June, uh, I see that a lot of, a lot of their losses are concentrated in the no triggers. So I'm guessing that these are, um, uh, these are transactions that we miss. 
+
+ Miguel: We're not prompting, right? So what are the penetration rates for these guys? Where the friction rates? 
+
+Praveen: Oh, uh... Am I looking at the right chart? Is it is it these restricted holes?  Yes. Um, so, let's see the restricted holds are 4000 oh, it's like $4000. Um, so does that, does that mean?  Is there a way to see, like, of these four? 
+Miguel: So you have the authentication rate in there. right? To your right.  And then you have the holds at 1.4 Uh, the one time 1.04. And the cancellation is minimum, right?  Yeah. So how much is cancellation? You can hover over it 30 to basis points, right?  My guess is that if we were to increase the cancellations and leave it off the holds, their losses will calm down because they're ready to go into FNP. right? 
+
+Praveen: What is FNP? Is that like a penalty box. 
+Miguel: It is penalty pricing. You have to pay fines for $50,000. Every time that you are beyond $30,000, EWS is going to fine you, it's going to put you a fine of $50,000 on top of the losses that you are incurring. so that you change your underwriting, right? So ideally we should be changing the policy for Zelle and giving them, 1st of all, a new model. That's why I'm asking, right?  What is a performance? What is the friction? Take the slide, push the slide into a presentation, and then describe the slide. and say, well, you're, Most of fraud is coming from not, not, uh, detected.  We already have 1.4 in holds and 30 basis points in cancellations. We have the option of building a new model or increasing the penetration in the existing policy, which probably we still have to do, right? So you have to take the snapshot of this and then talk to the slide and explain how to fix this thing.  So why don’t you gather the data and then give it a shot and recommending how do we fix this thing? Answer this?   Okay, so... So these are the metrics, right? This is the last later point that we have.  For August, the losses are about 2 basis points. They haven't posted completely, right? But in July, they already are posting 24,000. 
+ They may actually go up to 30,000, may get penalties, right? I don't think it's going to happen, but. The numbers for Fulton for June, I don't know if they got reported FNP with more than 30,000.  We have to check. With, uh, Doing a favor, just follow up with David, is Fulton in FNP or they're not in FNP? You can ask him. ask him.  Take townership, right? Go and ask David, do we have FNP in Fulton or not? She can, he can resolve for you and show you the Excel spreadsheet, right?  Did he send it into the email? You have it. 
+ So this is the, this was the email that he sent today. 18th.  So for these guys, It's taking time.  Fulton Bank, for July. Look at June, right? They reported June at 10.4 Basis point loss. This would have been on FNP.
+  So, this, let me summary, this is the total basis for send. What about the soul sand for? Because they were under. The $30,000 threshold, they didn't get a penalty. So take a snapshot of this, uh, Data, and this, this is per, and then you're going to show this is your existing position in EWS. You're going to take these numbers and say, these are your dollars.  This is your total basis points. You just missed the penalty.  For FNP. Because you were under, I don't know what happened here. So the 5000 looking fine. 
+
+Praveen: Um, so, so we, so, I guess I have a question, like, so we noticed that, like, in June, it was 10.44 basis points, but then in July, it's a lot lower. Um, so is that like, isn't, I guess, isn't that like a good thing. 
+
+Miguel: They just got lucky.  We got lucky because we're supposed to have estimated a model for them and fix this problem, right? And they have been after us for the last 2 months. So this is the current metrics.  And we just got lucky because they are not getting penalized. For receive in June, 1st Missouri, is the only one who triggered. The receive total fraud dollars for Fulton. 
+ Somewhere here. So just include these things, right? You see total dollars.  For the basis points in the total. 
+Total basis point in receive are these.  Right? So I put them here. The total, fraud dollars, in receive, by this.  And so I put them here. Right, okay. So this received money.  The send money. This receive money. And this is the same money.  Send money dollars. And the basis points, right, Send money. 
+ So all of this is already here. So you have to give them a summary of what EWS is saying for their losses.
+
+ And what it should be fairly evident and format them and make them pretty and the whole thing. 
+ But what should be evident is that we have just been lucky. that they haven't come into penalty pricing into performance pricing. 
+And we should respond to the need that they have of actually doing, having a better model. Which is why we're estimating Fulton.  Excellent. Okay
+, 
+Praveen: so, so, so, so we're trying to tell them that, like, it's, it's important for us to do a model refresh, is that we're, and then explaining the different, you know, the performance metrics. 
+
+Miguel: Yeah, in the meantime, we may have to increase their temporarily increase their um,  review while they sign off on the model, and we should present the results for the model in this round, because they should be worried that they are going to get penalty pricing. 
+ Right. So here's the slide. To use this to, Whenever you start talking about Zelle, talk about this thing, and talk about the 3 slides of Zelle and transfer now.  Okay? But just start putting the PowerPoint together by gathering the information and then describing in words. What is the current status of their The portfolio, right?  You have to show them the transfer now, offline, in session, the models, and then Zelle:send and receive. Right? And then do the policies and say, well, now to fix this thing, we need to take action on refreshing yourself on it.  And then we're going to start presenting to someone. That is the schedule for this meeting that we're going to have with them on, I think, Thursday next week. Okay
